@@ -399,7 +399,7 @@ a {
   background-color: #51ddfc;
 }
 .default:hover {
-  lighten: #51ddfc, 20%;
+  background-color: lighten #51ddfc, 15%;
 }
 
 .error {

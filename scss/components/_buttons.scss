@@ -14,10 +14,9 @@
   
   .default {
     background-color: $color-secondary;
-  }
-
-  .default:hover {
-    background-color: $secondary-light;
+    &:hover {
+      background-color: $secondary-light;
+    }
   }
   
   .error {
