@@ -398,6 +398,9 @@ a {
 .default {
   background-color: #51ddfc;
 }
+.default:hover {
+  lighten: #51ddfc, 20%;
+}
 
 .error {
   background-color: #e4757a;
@@ -449,7 +452,6 @@ a {
   display: flex;
   flex-direction: column;
 }
-
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -458,7 +460,6 @@ a {
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -568,7 +569,7 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media ((min-width: 768px)) {
   .container {
     max-width: 1400px;
     display: block;
